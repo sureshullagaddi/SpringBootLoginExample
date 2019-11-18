@@ -24,4 +24,5 @@ public class HomeController {
 		modelAndView.addObject("user", user);
 		return modelAndView;
 	}
+	//https://www.thymeleaf.org/documentation.html
 }

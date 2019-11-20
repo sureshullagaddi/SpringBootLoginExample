@@ -11,9 +11,9 @@ import com.springboot.loginexample.model.User;
 @Controller
 public class HomeController {
 
-	@RequestMapping("/")
+	@RequestMapping("/login")
 	public String index() {
-		return "index";
+		return "login";
 	}
 
 	@RequestMapping(value = "/save", method = RequestMethod.POST)

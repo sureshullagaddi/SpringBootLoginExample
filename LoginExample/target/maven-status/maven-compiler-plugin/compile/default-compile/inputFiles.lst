@@ -1,4 +1,7 @@
-/Users/suresh/springBootRestExamples/LoginExample/src/main/java/com/springboot/loginexample/interfaces/LoginInterface.java
-/Users/suresh/springBootRestExamples/LoginExample/src/main/java/com/springboot/loginexample/LoginExample/HomeController.java
-/Users/suresh/springBootRestExamples/LoginExample/src/main/java/com/springboot/loginexample/model/User.java
-/Users/suresh/springBootRestExamples/LoginExample/src/main/java/com/springboot/loginexample/LoginExample/App.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/interfaces/LoginInterface.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/LoginExample/App.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/model/EmployeeAddress.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/model/Employee.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/LoginExample/EmployeeController.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/LoginExample/HomeController.java
+/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/java/com/springboot/loginexample/model/User.java

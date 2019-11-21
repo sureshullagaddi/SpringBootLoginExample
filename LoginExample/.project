@@ -20,11 +20,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>javascript</name>
-			<type>2</type>
-			<location>/Users/suresh/git/SpringBootLoginExample/LoginExample/src/main/resources/javascript</location>
-		</link>
-	</linkedResources>
 </projectDescription>

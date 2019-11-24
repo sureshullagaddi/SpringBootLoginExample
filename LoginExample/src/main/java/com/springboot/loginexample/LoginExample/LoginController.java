@@ -34,7 +34,7 @@ public class LoginController {
 	}
 	
 	@RequestMapping(value="/Fixedline",method = RequestMethod.GET)
-	public String fixedLine() {
+	public String getUsers() {
 		return "Fixedline";
 	}
 }

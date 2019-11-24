@@ -29,8 +29,12 @@ public class LoginController {
 	
 	@RequestMapping(value = "/home" ,method = RequestMethod.POST)
 	public String loginValidation(@RequestParam String name,@RequestParam String email) {
-		if(name != null && email != null)
-		return "Home";
+		if(name != null && email != null)return "Home";
 		return "login";
 	}
+	
+//	@RequestMapping(value="/Fixedline",method = RequestMethod.GET)
+//	public String fixedLine() {
+//		return "Fixedline";
+//	}
 }

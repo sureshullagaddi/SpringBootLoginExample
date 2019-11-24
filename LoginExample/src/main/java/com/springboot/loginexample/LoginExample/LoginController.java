@@ -33,8 +33,8 @@ public class LoginController {
 		return "login";
 	}
 	
-//	@RequestMapping(value="/Fixedline",method = RequestMethod.GET)
-//	public String fixedLine() {
-//		return "Fixedline";
-//	}
+	@RequestMapping(value="/Fixedline",method = RequestMethod.GET)
+	public String fixedLine() {
+		return "Fixedline";
+	}
 }

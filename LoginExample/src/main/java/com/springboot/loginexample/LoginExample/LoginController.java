@@ -18,13 +18,13 @@ public class LoginController {
 	}
 
 	//@RequestMapping(value = "/save", method = RequestMethod.POST)
-	public ModelAndView save(@ModelAttribute User user) {
-		
-		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.setViewName("user-data");
-		modelAndView.addObject("user", user);
-		return modelAndView;
-	}
+//	public ModelAndView save(@ModelAttribute User user) {
+//		
+//		ModelAndView modelAndView = new ModelAndView();
+//		modelAndView.setViewName("user-data");
+//		modelAndView.addObject("user", user);
+//		return modelAndView;
+//	}
 	//https://www.thymeleaf.org/documentation.html
 	
 	@RequestMapping(value = "/home" ,method = RequestMethod.POST)

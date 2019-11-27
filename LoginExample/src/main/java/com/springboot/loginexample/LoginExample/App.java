@@ -14,4 +14,5 @@ public class App
     {
        SpringApplication.run(App.class, args);
     }
+    //ref - https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql
 }

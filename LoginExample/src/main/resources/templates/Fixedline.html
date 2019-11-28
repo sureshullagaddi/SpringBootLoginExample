@@ -1,8 +1,54 @@
-<html>
+<!-- <html>
 <link href="Home.html" rel="import" />
-<!--  <a th:href="@{Home.html}"></a>-->
+ <a th:href="@{Home.html}"></a>
 <body>
 
 <h1>Nalina</h1>
+</body>
+</html> -->
+
+	
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>Product Manager</title>
+</head>
+<body>
+<div align="center">
+    <h1>Product List</h1>
+    <a href="/new">Create New Product</a>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>UID</th>
+                <th>User Name</th>
+                <th>Login Name</th>
+                <th>Password</th>
+                <th>Type</th>
+                <th>Phoneno</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="user : ${listUsers}">
+                <td th:text="${user.uid}">USER ID</td>
+                <td th:text="${user.usname}">usname</td>
+                <td th:text="${user.loginname}">loginname</td>
+                <td th:text="${user.password}">password</td>
+                <td th:text="${user.type}">type</td>
+                <td th:text="${user.phoneno}">type</td>
+                <td th:text="${user.email}">email</td>
+                <td>
+                    <a th:href="/@{'/edit/' + ${user.uid}}">Edit</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a th:href="/@{'/delete/' + ${user.uid}}">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>   
 </body>
 </html>

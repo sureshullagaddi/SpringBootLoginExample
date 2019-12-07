@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
+      <link rel="import" href="Home.html"></link>
 <head>
+<link rel="import" href="Home.html"></link>
 <meta charset="utf-8"/>
 <title>Product Manager</title>
 </head>
@@ -32,9 +34,9 @@
                 <td th:text="${user.phoneno}">type</td>
                 <td th:text="${user.email}">email</td>
                 <td>
-                    <a th:href="/@{'/edit/' + ${user.uid}}">Edit</a>
+                    <a th:href="@{'/edit/' + ${user.uid}}">Edit</a>
                     &nbsp;&nbsp;&nbsp;
-                    <a th:href="/@{'/delete/' + ${user.uid}}">Delete</a>
+                    <a th:href="@{'/delete/' + ${user.uid}}">Delete</a>
                 </td>
             </tr>
         </tbody>

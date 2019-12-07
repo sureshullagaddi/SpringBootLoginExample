@@ -16,6 +16,9 @@ public class Users {
 	private String phoneno;
 	private String email;
 	
+	public Users() {
+		
+	}
 	public Users(Long uid, String usname, String loginname, String password, String type, String phoneno,
 			String email) {
 		super();
@@ -25,17 +28,6 @@ public class Users {
 		this.password = password;
 		this.type = type;
 		this.phoneno = phoneno;
-		this.email = email;
-	}
-	
-	public Users() {
-		
-	}
-	
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
 		this.email = email;
 	}
 	
@@ -76,6 +68,12 @@ public class Users {
 	}
 	public void setPhoneno(String phoneno) {
 		this.phoneno = phoneno;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }

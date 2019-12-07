@@ -1,6 +1,4 @@
-package com.springboot.loginexample.entity;
-
-import java.util.List;
+package com.springboot.phonebill.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,8 +8,6 @@ import javax.persistence.Id;
 @Entity
 public class Users {
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long uid;
 	private String usname;
 	private String loginname;
@@ -20,12 +16,31 @@ public class Users {
 	private String phoneno;
 	private String email;
 	
+	public Users(Long uid, String usname, String loginname, String password, String type, String phoneno,
+			String email) {
+		super();
+		this.uid = uid;
+		this.usname = usname;
+		this.loginname = loginname;
+		this.password = password;
+		this.type = type;
+		this.phoneno = phoneno;
+		this.email = email;
+	}
+	
+	public Users() {
+		
+	}
+	
 	public String getEmail() {
 		return email;
 	}
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Long getUid() {
 		return uid;
 	}

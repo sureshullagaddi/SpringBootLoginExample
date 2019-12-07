@@ -1,4 +1,4 @@
-package com.springboot.loginexample.model;
+package com.springboot.phonebill.models;
 
 public class User {
 	

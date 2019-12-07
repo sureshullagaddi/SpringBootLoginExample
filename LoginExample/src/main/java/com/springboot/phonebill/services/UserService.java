@@ -1,14 +1,15 @@
-package com.springboot.loginexample.service;
+package com.springboot.phonebill.services;
 
 import java.util.List;
 
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.springboot.loginexample.entity.Users;
-import com.springboot.loginexample.repository.UserRepository;
+import com.springboot.phonebill.entity.Users;
+import com.springboot.phonebill.repository.UserRepository;
 
 @Service
 @Transactional
@@ -26,11 +27,11 @@ public class UserService {
     }
      
     public Users get(long id) {
-        return repo.findOne(id);
-    }
+		return repo.findOne(id);
+	}
+	
+	public void delete(long id) {
+		repo.delete(id);
+	}
     
-//    public void delete(long id) {
-//        repo.deleteById(id);
-//    }
-     
 }

@@ -1,4 +1,4 @@
-package com.springboot.loginexample.interfaces;
+package com.springboot.phonebill.interfaces;
 
 public interface LoginInterface {
 	

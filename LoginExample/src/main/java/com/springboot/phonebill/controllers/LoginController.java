@@ -66,8 +66,7 @@ public class LoginController {
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public String saveProduct(@ModelAttribute("product") Users product) {
 		service.save(product);
-		
-		return "redirect:/";
+		return "redirect:/users";
 	}
 	
 	@RequestMapping("/edit/{id}")

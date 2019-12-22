@@ -82,6 +82,6 @@ public class LoginController {
 	@RequestMapping("/delete/{id}")
 	public String deleteProduct(@PathVariable(name = "id") int id) {
 		service.delete(id);
-		return "redirect:/";		
+		return "redirect:/users";		
 	}
 }

@@ -78,7 +78,7 @@ public class LoginController {
 		
 		return mav;
 	}
-	
+	//delete user
 	@RequestMapping("/delete/{id}")
 	public String deleteProduct(@PathVariable(name = "id") int id) {
 		service.delete(id);

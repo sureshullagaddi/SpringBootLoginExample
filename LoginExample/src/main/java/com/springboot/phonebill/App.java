@@ -9,14 +9,13 @@ import org.springframework.context.annotation.ComponentScan;
  * Starting of the application
  *
  */
-//@ComponentScan(value = "com.springboot.loginexample")
 @SpringBootApplication
 public class App {
 	public static void main(String[] args) {
-		// https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql
-
 		SpringApplication.run(App.class, args);
-
 	}
 
+	/*
+	 * ref - https://github.com/ChiefTwoPencils/sprax-modal
+	 */
 }

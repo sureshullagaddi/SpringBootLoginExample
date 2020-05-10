@@ -1,0 +1,32 @@
+<html xmlns:th="https://thymeleaf.org">  
+    <table>  
+        <tr>  
+            <td><h4>Employee Name: </h4></td>  
+            <td><h4 th:text="${employee.name}"></h4></td>  
+        </tr>  
+        <tr>  
+            <td><h4>Employee ID: </h4></td>  
+            <td><h4 th:text="${employee.eid}"></h4></td>  
+        </tr>
+        <tr>  
+            <td><h4>Organization Name: </h4></td>  
+            <td><h4 th:text="${employee.orgName}"></h4></td>  
+        </tr>
+        <tr>  
+            <td><h4>Department: </h4></td>  
+            <td><h4 th:text="${employee.dept}"></h4></td>  
+        </tr>
+        <tr>  
+            <td><h4>Employee Add1: </h4></td>  
+            <td><h4 th:text="${employee.add1}"></h4></td>  
+        </tr>
+        <tr>  
+            <td><h4>Employee Add2: </h4></td>  
+            <td><h4 th:text="${employee.add2}"></h4></td>  
+        </tr>
+        <tr>  
+            <td><h4>Landmark: </h4></td>  
+            <td><h4 th:text="${employee.landmark}"></h4></td>  
+        </tr>
+    </table>  
+</html>
